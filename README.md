@@ -10,8 +10,9 @@ Feather is a collection of packages, starter templates, and agent skills designe
 |---------|-------------|--------|
 | [feather-flow](https://github.com/siraj-samsudeen/feather-flow) | Skills and workflows for AI coding agents. Stack-agnostic. | Active |
 | [feather-starter-convex](https://github.com/siraj-samsudeen/feather-starter-convex) | Starter template for React + Convex + Vite. | In Progress |
-| [feather-testing](https://github.com/siraj-samsudeen/feather-testing) | Phoenix Test-inspired fluent testing DSL for Playwright and RTL. Stack-agnostic. | Active |
+| [feather-testing-core](https://github.com/siraj-samsudeen/feather-testing-core) | Phoenix Test-inspired fluent testing DSL for Playwright and RTL. Stack-agnostic. | Active |
 | [feather-testing-convex](https://github.com/siraj-samsudeen/feather-testing-convex) | Phoenix/Wallaby-inspired integration testing for React + Convex. | Active |
+| [feather-example-app](https://github.com/siraj-samsudeen/feather-example-app) | Reference app showcasing the Feather ecosystem (Convex + Auth + testing DSL). | Active |
 
 ## Naming Convention
 
