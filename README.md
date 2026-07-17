@@ -49,6 +49,12 @@ Two registers, one per audience:
 - `feather-etl` → **feather-flow** (data pipelines). Old URLs redirect; the PyPI package is still published as `feather-etl` for now.
 - The former `feather-flow` (agent workflows) → **feather-skills**. The npm package is still published as `feather-flow` for now.
 
+## Future direction: Feather Apps
+
+A fourth tier is planned: **Feather Apps** — prebuilt applications built on featherbase, ready to deploy and customize per client. First planned app:
+
+- **feather-comdo** — todo, project management, ticketing, and CRM in one coherent app.
+
 ## Philosophy
 
 - **Convention over configuration** — Sensible defaults, override when needed
