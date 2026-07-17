@@ -8,7 +8,7 @@ Feather is a collection of packages, starter templates, and agent skills designe
 
 | Package | Description | Status |
 |---------|-------------|--------|
-| [feather-flow](https://github.com/siraj-samsudeen/feather-flow) | Skills and workflows for AI coding agents. Stack-agnostic. | Active |
+| [feather-skills](https://github.com/siraj-samsudeen/feather-skills) | Skills and workflows for AI coding agents. Stack-agnostic. | Active |
 | [feather-starter-convex](https://github.com/siraj-samsudeen/feather-starter-convex) | Starter template for React + Convex + Vite. | In Progress |
 | [feather-testing-core](https://github.com/siraj-samsudeen/feather-testing-core) | Phoenix Test-inspired fluent testing DSL for Playwright and RTL. Stack-agnostic. | Active |
 | [feather-testing-convex](https://github.com/siraj-samsudeen/feather-testing-convex) | Phoenix/Wallaby-inspired integration testing for React + Convex. | Active |
@@ -16,7 +16,7 @@ Feather is a collection of packages, starter templates, and agent skills designe
 
 ## Naming Convention
 
-- **`feather-{function}`** — Stack-agnostic packages (e.g., `feather-flow`)
+- **`feather-{function}`** — Stack-agnostic packages (e.g., `feather-skills`)
 - **`feather-{function}-{stack}`** — Stack-specific packages (e.g., `feather-testing-convex`, `feather-starter-convex`)
 
 ## Philosophy
@@ -31,6 +31,6 @@ Feather is a collection of packages, starter templates, and agent skills designe
 Future packages under consideration:
 
 - `feather-analytics` — Analytics integration
-- `feather-etl` — Data pipeline utilities
+- `feather-flow` (renamed from `feather-etl`, 2026-07-17) — Data pipeline utilities
 - `feather-starter-supabase` — Starter for Supabase stack
 - `feather-starter-instantdb` — Starter for InstantDB stack
