@@ -53,7 +53,7 @@ Two registers, one per audience:
 
 A fourth tier is planned: **Feather Apps** — prebuilt applications built on featherbase, ready to deploy and customize per client. First planned app:
 
-- **feather-comdo** — todo, project management, ticketing, and CRM in one coherent app.
+- **feather-calmdo** — todo, project management, ticketing, and CRM in one coherent app.
 
 ## Philosophy
 
