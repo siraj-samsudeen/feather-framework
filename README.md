@@ -35,7 +35,6 @@ Low-level packages and templates that support building with Feather.
 | [feather-testing-convex](https://github.com/siraj-samsudeen/feather-testing-convex) | Phoenix/Wallaby-inspired integration testing for React + Convex. | Active |
 | [feather-starter-convex](https://github.com/siraj-samsudeen/feather-starter-convex) | Production-ready SaaS starter for React + Convex + Vite. | In Progress |
 | [feather-example-app](https://github.com/siraj-samsudeen/feather-example-app) | Reference app showcasing the Feather ecosystem (Convex + Auth + testing DSL). | Active |
-| [feather-gsd](https://github.com/siraj-samsudeen/feather-gsd) | Meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode. | Active |
 
 ## Naming Convention
 
