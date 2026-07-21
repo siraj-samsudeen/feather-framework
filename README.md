@@ -21,7 +21,7 @@ The mid-tier: things developers build on.
 
 | Package | Description | Status |
 |---------|-------------|--------|
-| [featherbase](https://github.com/siraj-samsudeen/featherbase) | Metadata-driven app platform in TypeScript — Frappe's core ideas on Convex + React, with Glide-style workflows and AI-agent-first authoring. | In Progress |
+| [featherbase](https://github.com/siraj-samsudeen/featherbase) | Metadata-driven app platform in TypeScript — Frappe's core ideas on React + Hono + Postgres, with AI-agent-first authoring. | In Progress |
 | [feather-flow](https://github.com/siraj-samsudeen/feather-flow) | Lightweight, config-driven data pipelines in Python — a full extract-transform-publish stack in one small package. | Active |
 | [feather-skills](https://github.com/siraj-samsudeen/feather-skills) | Agent workflow skills for Claude Code — brainstorm → spec → execute, gated at every step. Stack-agnostic. | Active |
 
@@ -46,8 +46,10 @@ Two registers, one per audience:
 
 ### Renames (2026-07-17)
 
-- `feather-etl` → **feather-flow** (data pipelines). Old URLs redirect; the PyPI package is still published as `feather-etl` for now.
-- The former `feather-flow` (agent workflows) → **feather-skills**. The npm package is still published as `feather-flow` for now.
+- `feather-etl` → **feather-flow** (data pipelines). Old GitHub URLs redirect. The rename now reaches the package too: distribution `feather-flow`, module `feather_flow`, from v0.2.0. The `feather-etl` PyPI package is frozen at 0.1.3.
+- The former `feather-flow` (agent workflows) → **feather-skills**. Old GitHub URLs redirect. From v3.0.0 the npm package, the install directory, and the orient skill are all `feather-skills`; `npx feather-skills` migrates an existing `feather-flow` install. The `feather-flow` npm package is frozen at 2.0.1.
+
+The two names briefly overlapped across registries — npm `feather-flow` (agent workflows, retired) and PyPI `feather-flow` (data pipelines, current). Separate namespaces, no collision; the npm one is deprecated.
 
 ## Future direction: Feather Apps
 
