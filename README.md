@@ -33,6 +33,7 @@ Low-level packages and templates that support building with Feather.
 |---------|-------------|--------|
 | [feather-testing-core](https://github.com/siraj-samsudeen/feather-testing-core) | Phoenix Test-inspired fluent testing DSL for Playwright and RTL. Stack-agnostic. | Active |
 | [feather-testing-convex](https://github.com/siraj-samsudeen/feather-testing-convex) | Phoenix/Wallaby-inspired integration testing for React + Convex. | Active |
+| [feather-testing-postgres](https://github.com/siraj-samsudeen/feather-testing-postgres) | Phoenix-style SQL Sandbox testing for React + Hono + Postgres — per-test transaction rollback and full-stack component tests. | Active |
 | [feather-starter-convex](https://github.com/siraj-samsudeen/feather-starter-convex) | Production-ready SaaS starter for React + Convex + Vite. | In Progress |
 | [feather-example-app](https://github.com/siraj-samsudeen/feather-example-app) | Reference app showcasing the Feather ecosystem (Convex + Auth + testing DSL). | Active |
 
